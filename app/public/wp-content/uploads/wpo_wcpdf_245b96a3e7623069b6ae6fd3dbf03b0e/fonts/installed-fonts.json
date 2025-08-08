@@ -1,0 +1,26 @@
+{
+    "open sans": {
+        "normal": "\/home\/u166454699\/domains\/zerses.com\/public_html\/wp-content\/uploads\/wpo_wcpdf_245b96a3e7623069b6ae6fd3dbf03b0e\/fonts\/OpenSans-Normal",
+        "bold": "\/home\/u166454699\/domains\/zerses.com\/public_html\/wp-content\/uploads\/wpo_wcpdf_245b96a3e7623069b6ae6fd3dbf03b0e\/fonts\/OpenSans-Bold",
+        "italic": "\/home\/u166454699\/domains\/zerses.com\/public_html\/wp-content\/uploads\/wpo_wcpdf_245b96a3e7623069b6ae6fd3dbf03b0e\/fonts\/OpenSans-Italic",
+        "bold_italic": "\/home\/u166454699\/domains\/zerses.com\/public_html\/wp-content\/uploads\/wpo_wcpdf_245b96a3e7623069b6ae6fd3dbf03b0e\/fonts\/OpenSans-BoldItalic"
+    },
+    "segoe": {
+        "normal": "\/home\/u166454699\/domains\/zerses.com\/public_html\/wp-content\/uploads\/wpo_wcpdf_245b96a3e7623069b6ae6fd3dbf03b0e\/fonts\/Segoe-Normal",
+        "bold": "\/home\/u166454699\/domains\/zerses.com\/public_html\/wp-content\/uploads\/wpo_wcpdf_245b96a3e7623069b6ae6fd3dbf03b0e\/fonts\/Segoe-Bold",
+        "italic": "\/home\/u166454699\/domains\/zerses.com\/public_html\/wp-content\/uploads\/wpo_wcpdf_245b96a3e7623069b6ae6fd3dbf03b0e\/fonts\/Segoe-Italic",
+        "bold_italic": "\/home\/u166454699\/domains\/zerses.com\/public_html\/wp-content\/uploads\/wpo_wcpdf_245b96a3e7623069b6ae6fd3dbf03b0e\/fonts\/Segoe-BoldItalic"
+    },
+    "roboto slab": {
+        "normal": "\/home\/u166454699\/domains\/zerses.com\/public_html\/wp-content\/uploads\/wpo_wcpdf_245b96a3e7623069b6ae6fd3dbf03b0e\/fonts\/RobotoSlab-Normal",
+        "bold": "\/home\/u166454699\/domains\/zerses.com\/public_html\/wp-content\/uploads\/wpo_wcpdf_245b96a3e7623069b6ae6fd3dbf03b0e\/fonts\/RobotoSlab-Bold",
+        "italic": "\/home\/u166454699\/domains\/zerses.com\/public_html\/wp-content\/uploads\/wpo_wcpdf_245b96a3e7623069b6ae6fd3dbf03b0e\/fonts\/RobotoSlab-Italic",
+        "bold_italic": "\/home\/u166454699\/domains\/zerses.com\/public_html\/wp-content\/uploads\/wpo_wcpdf_245b96a3e7623069b6ae6fd3dbf03b0e\/fonts\/RobotoSlab-BoldItalic"
+    },
+    "currencies": {
+        "normal": "\/home\/u166454699\/domains\/zerses.com\/public_html\/wp-content\/uploads\/wpo_wcpdf_245b96a3e7623069b6ae6fd3dbf03b0e\/fonts\/currencies",
+        "bold": "\/home\/u166454699\/domains\/zerses.com\/public_html\/wp-content\/uploads\/wpo_wcpdf_245b96a3e7623069b6ae6fd3dbf03b0e\/fonts\/currencies",
+        "italic": "\/home\/u166454699\/domains\/zerses.com\/public_html\/wp-content\/uploads\/wpo_wcpdf_245b96a3e7623069b6ae6fd3dbf03b0e\/fonts\/currencies",
+        "bold_italic": "\/home\/u166454699\/domains\/zerses.com\/public_html\/wp-content\/uploads\/wpo_wcpdf_245b96a3e7623069b6ae6fd3dbf03b0e\/fonts\/currencies"
+    }
+}

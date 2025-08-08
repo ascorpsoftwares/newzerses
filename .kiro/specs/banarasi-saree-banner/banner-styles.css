@@ -1,0 +1,155 @@
+/* Banarasi Saree Banner Custom Styles */
+
+/* Banner CTA Buttons Container */
+.banner-cta-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* Primary Button - Shop Banarasi Sarees */
+.banner-cta-buttons .btn-primary {
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    text-transform: uppercase;
+    background-color: #d64f1d;
+    color: #fff;
+    font-weight: 600;
+    border-color: #d64f1d;
+    border: 1px solid #d64f1d;
+    border-radius: 0;
+    padding: 14px 35px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.banner-cta-buttons .btn-primary:hover {
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border: 1px solid #333 !important;
+    background-color: #333 !important;
+    color: #fff !important;
+    padding: 16px 38px !important;
+    text-decoration: none;
+}
+
+/* Secondary Button - View All Sarees */
+.banner-cta-buttons .btn-secondary {
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #333;
+    font-weight: 600;
+    border-color: #333;
+    border: 2px solid #333;
+    border-radius: 0;
+    padding: 12px 33px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.banner-cta-buttons .btn-secondary:hover {
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    background-color: #333;
+    color: #fff !important;
+    border-color: #333;
+    text-decoration: none;
+    padding: 14px 35px;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    .banner-cta-buttons {
+        flex-direction: column;
+        gap: 10px;
+        align-items: stretch;
+        margin-top: 15px;
+    }
+    
+    .banner-cta-buttons .btn-primary,
+    .banner-cta-buttons .btn-secondary {
+        width: 100%;
+        text-align: center;
+        padding: 12px 25px;
+        font-size: 13px;
+    }
+    
+    .banner-cta-buttons .btn-primary:hover,
+    .banner-cta-buttons .btn-secondary:hover {
+        padding: 14px 27px;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner-cta-buttons .btn-primary,
+    .banner-cta-buttons .btn-secondary {
+        padding: 10px 20px;
+        font-size: 12px;
+        letter-spacing: 0.3px;
+    }
+    
+    .banner-cta-buttons .btn-primary:hover,
+    .banner-cta-buttons .btn-secondary:hover {
+        padding: 12px 22px;
+    }
+}
+
+/* Enhanced Banner Content Styling for Luxury Positioning */
+.banner7-caption .caption-content h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+.banner7-caption .caption-content span {
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    color: #666;
+    display: block;
+}
+
+/* Mobile Typography Adjustments */
+@media (max-width: 768px) {
+    .banner7-caption .caption-content h2 {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    
+    .banner7-caption .caption-content span {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner7-caption .caption-content h2 {
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+    
+    .banner7-caption .caption-content span {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+}
