@@ -24,7 +24,7 @@ const ResumeWebsite = () => {
     setSubmitStatus(null);
 
     try {
-      const response = await fetch('https://krishnakky.com/blog/wp-json/contact/v1/submit', {
+      const response = await fetch('https://krishnakky.com/blog/wp-json/portfolio/v1/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -34,11 +34,12 @@ const ResumeWebsite = () => {
 
       const result = await response.json();
 
-      if (response.ok) {
+      if (response.ok && result.success) {
         setSubmitStatus({ type: 'success', message: result.message });
         setFormData({ name: '', email: '', message: '' });
       } else {
-        setSubmitStatus({ type: 'error', message: result.message || 'Something went wrong' });
+        const errorMessage = result.message || result.data?.message || 'Something went wrong. Please try again.';
+        setSubmitStatus({ type: 'error', message: errorMessage });
       }
     } catch (error) {
       setSubmitStatus({ type: 'error', message: 'Failed to send message. Please try again.' });
