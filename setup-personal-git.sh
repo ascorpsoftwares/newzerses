@@ -94,6 +94,9 @@ if [ ! -f ".gitignore" ]; then
 node_modules/
 vendor/
 
+# kiro workspace
+.kiro
+
 # Build outputs
 dist/
 build/
