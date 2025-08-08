@@ -1,8 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import PLR from './PLR.jsx'
+// import PLR from './PLR.jsx'
 
+// Commented out PLR switcher - focusing on portfolio only
+/*
 const AppSwitcher = () => {
   const [currentApp, setCurrentApp] = useState('portfolio'); // 'portfolio' or 'plr'
 
@@ -26,7 +28,6 @@ const AppSwitcher = () => {
 
   return (
     <div>
-      {/* App Switcher - Development Mode */}
       <div className="fixed top-4 right-4 z-[9999] bg-white shadow-2xl rounded-lg p-3 border-2 border-gray-300">
         <div className="text-xs text-gray-500 mb-2 text-center">Switch Site:</div>
         <div className="flex gap-2">
@@ -53,14 +54,14 @@ const AppSwitcher = () => {
         </div>
       </div>
 
-      {/* Render the selected app */}
       {currentApp === 'portfolio' ? <App /> : <PLR />}
     </div>
   );
 };
+*/
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <AppSwitcher />
+    <App />
   </React.StrictMode>,
 )
